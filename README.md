@@ -9,9 +9,13 @@ Usage
 To include this in a project simply add the plugin in a script tag after you include jQuery, just like any other jQuery plugin.
 
 To use with jQuery simply bind to the **lazy** event rather than the real event. The lazy events use the same name as the real events with lazy prepended, so rather than
+
         $().on('resize', function(e){});
+
 you would use
+
         $().on('lazyresize', function(e){});
+
 Simple as that.
 
 Configuration
